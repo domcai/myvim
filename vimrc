@@ -2,7 +2,7 @@
 set nocompatible               " be iMproved
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -203,3 +203,6 @@ let g:tagbar_type_go = {
 " :BundleInstall(!)    - install(update) bundles
 " :BundleSearch(!) foo - search(or refresh cache first) for foo
 " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" setup pydiction
+filetype plugin on
+let g:pydiction_location = '/root/.vim/bundle/pydiction/complete-dict'
